@@ -1,0 +1,16 @@
+nama = "Yofi Widiyanto"
+prodi = "S1 Teknologi Informasi"
+npm = "2420506039"
+alamat = "Jl. Munding lor, Munding kidul, Kundisari, Kedu, Temanggung"
+hobi = "Main Game Pixel"
+email = "yofimawon@gmail.com"
+
+print("Nama :", nama)
+print("Prodi :", prodi)
+print("Email :", email)
+
+with open('Biodata.txt', 'w') as writefile:
+        writefile.write("Nama : " + nama + "\n")
+        writefile.write("NPM : " + npm + "\n")
+        writefile.write("Prodi : " + prodi + "\n")
+        writefile.write("Alamat : " + alamat + "\n")
